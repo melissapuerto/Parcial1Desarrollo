@@ -4,17 +4,15 @@ public class SingletonDriver {
 
 	public static void main(String[] args) {
 		
-		Coordinador coor1=new Coordinador("nombre1", "escuela1");
-		Coordinador coor2=new Coordinador("nombre2", "escuela2");
-		Coordinador coor3=new Coordinador("nombre3", "escuela3");
+		Coordinador coordinador1=new Coordinador("nombre1", "escuela1");
 		
-		coor1.agregarClase("lun4pm", "clase1");
-		coor1.agregarClase("lun4pm", "clase2");
-		coor1.agregarClase("lun5pm", "clase3");
-		//Iterar sobre las llaves
-		System.out.println("done");
+		coordinador1.agregarClase("lun4am", "clase1");
+		coordinador1.agregarClase("lun4am", "clase2");
+		coordinador1.agregarClase("lun5pm", "clase3");
+
 		SingletonSchedule.getInstance().print();
 
+		//solo se guardaran 2 clases, debido a que la clase 1 y 2 chocan
 
 	}
 
