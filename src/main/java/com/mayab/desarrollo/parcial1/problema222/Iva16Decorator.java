@@ -1,6 +1,6 @@
 package com.mayab.desarrollo.parcial1.problema222;
 
-public class Iva16Decorator extends IVADecorator {
+public class Iva16Decorator extends CostoDecorator {
 
 	public Iva16Decorator(Producto producto) {
 		super(producto);
