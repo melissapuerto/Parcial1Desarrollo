@@ -1,4 +1,4 @@
-package com.mayab.desarrollo.parcial1.problema222;
+package com.mayab.desarrollo.parcial1.problema2;
 
 public class Iva16Decorator extends CostoDecorator {
 
@@ -11,5 +11,6 @@ public class Iva16Decorator extends CostoDecorator {
 		return (this.producto.calcularPrecio()+(this.producto.calcularPrecio()*.16));
 	}
 	
+	}
 
-}
+

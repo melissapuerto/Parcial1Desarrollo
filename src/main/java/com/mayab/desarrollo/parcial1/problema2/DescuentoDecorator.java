@@ -1,4 +1,4 @@
-package com.mayab.desarrollo.parcial1.problema222;
+package com.mayab.desarrollo.parcial1.problema2;
 
 public class DescuentoDecorator extends CostoDecorator {
 
