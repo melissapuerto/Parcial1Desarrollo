@@ -1,5 +1,0 @@
-WARNING - 19:22:14: First conversion pass
-ERROR - 19:22:14: java.net.MalformedURLException: unknown protocol: pathmap
-WARNING - 19:22:36: Convert com.mayab.desarrollo.patrones.creacion.factoryMethod
-WARNING - 19:22:36: First conversion pass
-ERROR - 19:22:36: java.net.MalformedURLException: unknown protocol: pathmap
