@@ -5,10 +5,11 @@ import java.util.ArrayList;
 public class Driver {
 
 	public static void main(String[] args) {
+		ArrayList<PersonaNueva> personas=new ArrayList<PersonaNueva>();
+
 		EmpleadoViejo empleadoviejo=new EmpleadoViejo("Miranda", "Torres","11/01/2000");
 		EmpleadoNuevo empleadonuevo=new EmpleadoNuevo("Meli Puerto","23");
 		AdptadorViejaANueva adapter = new AdptadorViejaANueva(empleadoviejo);
-		ArrayList<PersonaNueva> personas=new ArrayList<PersonaNueva>();
 		personas.add(empleadonuevo);
 		personas.add(adapter);
 	

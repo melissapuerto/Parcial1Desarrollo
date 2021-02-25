@@ -13,12 +13,12 @@ private Archivo archivo;
 	@Override
 	public String leer()
 	{
-		return archivo.leer()+" encriptando datos";
+		return this.archivo.leer()+" encriptando datos";
 	}
 	
 	@Override
 	public String escribir()
 	{
-		return archivo.escribir()+" encriptando datos";
+		return this.archivo.escribir()+" encriptando datos";
 	}
 }

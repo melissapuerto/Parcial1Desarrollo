@@ -12,13 +12,13 @@ public class DecoratorZip extends Decorator{
 	@Override
 	public String leer()
 	{
-		return archivo.leer()+" zipeando datos";
+		return this.archivo.leer()+" zipeando datos";
 	}
 	
 	@Override
 	public String escribir()
 	{
-		return archivo.escribir()+" zipeandos datos";
+		return this.archivo.escribir()+" zipeandos datos";
 	}
 
 	
